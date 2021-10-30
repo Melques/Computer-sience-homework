@@ -5,8 +5,8 @@ using namespace std;
 void print_array(int a[], const int n) {
     for (int i = 0; i < n; i++) {
         cout << a[i] << " ";
-        cout << endl;
     }
+        cout << endl;
 }
 void progressia(int frst, int step, int a[], const int n) {
     a[0] = frst;
